@@ -1,8 +1,8 @@
 const dataLowerCase = "azertyuiopqsdfghjklmwxcvbn";
-const dataUpperCase = dataLowerCase.toUpperCase(); // ici on met en majuscule
+const dataUpperCase = dataLowerCase.toUpperCase(); 
 const dataNumber = "1234567890";
 const dataSymbol = "$*€£%&§!()-_``éè";
-const rangeValue = document.getElementById('password-length'); // ici on récupère le range grâce à l'ID
+const rangeValue = document.getElementById('password-length'); 
 const passwordOutput = document.getElementById('password-output');
 
 const generatePassword = () => {
